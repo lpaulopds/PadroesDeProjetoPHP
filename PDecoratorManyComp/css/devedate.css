@@ -1,0 +1,71 @@
+/* Página 210 */
+
+@charset "UTF-8";
+/* CSS Document */
+
+header
+{
+    font-family: Cracked;
+    font-size: 64px;
+    color: #F00;
+    background-color: #000;
+}
+h2
+{
+    font-family: "Courier New", Courier, monospace;
+    font-size: 24px;
+}
+h3
+{
+    font-family: "Courier New", Courier, monospace;
+    font-size: 18px;
+    color: #fff;
+    background-color: #000;
+}
+h4
+{
+    margin: 16px 0 8px 4px;
+}
+body
+{
+    font-family: "Courier New", Courier, monospace;
+    font-size: 14px;
+}
+#sex
+{
+    display: table;
+}
+#fem
+{
+    display: table-cell;
+    width: 150px;
+    text-align: center;
+}
+aside
+{
+    display: table-cell;
+    width: 150px;
+    text-align: center;
+}
+label
+{
+    display: block;
+    margin-bottom: 4px;
+    /* vertical-align: middle; */
+}
+input[type="radio"]
+{
+    margin: -2px 8px 4px 4px;
+    vertical-align: middle;
+}
+input[type="submit"]
+{
+    border: none;
+    border-radius: 4px;
+    background-color: #222;
+    color: #fff;
+    cursor: pointer;
+    letter-spacing: 1px;
+    margin: 16px 0 160px 4px;
+    padding: 12px 24px;
+}

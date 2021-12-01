@@ -1,0 +1,34 @@
+@charset "TF-8";
+/* Página 181 */
+
+/* CSS Document */
+/* DDDCC5, 958976, 611427, 1D2326, 6A6A61 */
+
+@media only screen and (min-device-width : 640px) and (max-device-width : 960px)
+{
+    img { max-width: 100%; }
+}
+body
+{
+    margin: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #1D2326;
+    font-size: 24px;
+    background-color: #DDDCC5;
+}
+h1
+{
+    font-family: "Arial Black", Gadget, sans-serif;
+    font-size: 48px;
+    color: #611427;
+    margin-left: 16px;
+}
+image
+{
+    padding: 5px 5px 5px 0px;
+}
+div
+{
+    margin-left: 16px;
+    margin-right: 16px;
+}

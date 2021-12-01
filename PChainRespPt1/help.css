@@ -1,0 +1,39 @@
+@charset "UTF-8";
+/* Página 351 */
+/* CSS Document */
+
+body
+{
+    background-color: #6A6A61;
+    color: #DDDCC5;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 11px;
+    margin-left: 12px;
+}
+h2
+{
+    background-color: #958976;
+    color: #1D2326;
+    font-family: Tahoma, Geneva, sans-serif;
+    font-size: 18px;
+    margin-left: 0px;
+    text-indent: 1em;
+}
+label
+{
+    display: block;
+    margin-bottom: 8px;
+}
+input[type=submit]
+{
+    border: none;
+    border-radius: 8px;
+    margin-top: 16px;
+    padding: 8px 20px;
+    cursor: pointer;
+    letter-spacing: 0.8px;
+}
+input[type=submit]:hover
+{
+    background-color: grey;
+}

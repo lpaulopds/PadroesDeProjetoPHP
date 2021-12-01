@@ -1,0 +1,58 @@
+body
+{
+    margin: 0;
+}
+h1, h2
+{
+    font-family: Roboto, Geneva, Tahoma, sans-serif;
+    margin-left: 16px;
+    letter-spacing: 0.5px;
+}
+label
+{
+    cursor: pointer;
+    display: block;
+    font-family: Roboto, Geneva, Tahoma, sans-serif;
+    margin-top: 16px;
+    margin-left: 16px;
+    margin-bottom: 8px;
+    letter-spacing: 0.5px;
+}
+input
+{
+    font-family: Roboto, Geneva, Tahoma, sans-serif;
+    margin-left: 16px;
+    padding: 4px 8px;
+    letter-spacing: 0.5px;
+}
+textarea
+{
+    font-family: Roboto, Geneva, Tahoma, sans-serif;
+    margin-left: 16px;
+    letter-spacing: 0.5px;
+}
+input[type=submit]
+{
+    background-color: #222;
+    border: none;
+    border-radius: 4px;
+    color: #f2f2f2;
+    cursor: pointer;
+    display: block;
+    font-family: Roboto, Geneva, Tahoma, sans-serif;
+    font-weight: 600;
+    letter-spacing: 1px;
+    margin-top: 32px;
+    margin-bottom: 32px;
+    padding: 10px 26px;
+}
+input[type=submit]:hover
+{
+    background-color: grey;
+    color: #222;
+    letter-spacing: 1px;
+}
+input[type=radio]
+{
+    cursor: pointer;
+}

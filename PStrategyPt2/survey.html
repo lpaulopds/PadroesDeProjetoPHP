@@ -1,0 +1,66 @@
+<!-- Página 322 -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Programmer Profile Survey</title>
+    <style>
+        html {
+            height: 175vh;
+            margin-left: 34px;
+        }
+        h3 {
+            margin-top: 32px;
+        }
+        label {
+            display: block;
+            margin-bottom: 8px;
+        }
+        input[type=text] {
+            margin-top: 8px;
+        }
+        input[type=submit] {
+            background-color: #222;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            letter-spacing: 0.5px;
+            margin-top: 8px;
+            margin-bottom: 8px;
+            padding: 8px 16px;
+            color: #f2f2f2;
+        }
+    </style>
+</head>
+<body>
+    <h2>Programmer Survey</h2>
+    <form name="survey" action="insertTrigger.php" method="post">
+        <label><input type="text" name="company"> Company Name</label>
+        <h3>Primary Role</h3>
+        <label><input type="radio" name="devdes" value="developer">Developer</label>
+        <label><input type="radio" name="devdes" value="designer">Designer</label>
+        <h3>Primary Programming Language</h3>
+        <label><input type="radio" name="lang" value="PHP">PHP</label>
+        <label><input type="radio" name="lang" value="C#/ASP.NET">C# ASP.NET</label>
+        <label><input type="radio" name="lang" value="PERL">PERL</label>
+        <label><input type="radio" name="lang" value="JavaScript">JavaScript</label>
+        <label><input type="radio" name="lang" value="ActionScript 3.0">ActionScript 3.0</label>
+        <h3>Primary Development / Design Plataform</h3>
+        <label><input type="radio" name="plat" value="Mac">Apple Macintosh</label>
+        <label><input type="radio" name="plat" value="Linux">Linux</label>
+        <label><input type="radio" name="plat" value="WinPC">Windows PC</label>
+        <h3>Primary Programming Style</h3>
+        <label><input type="radio" name="style" value="sequential">Sequential</label>
+        <label><input type="radio" name="style" value="procedural">Procedural</label>
+        <label><input type="radio" name="style" value="OOP">Object Oriented Programming</label>
+        <label><input type="radio" name="style" value="design patterns">Design Patterns</label>
+        <h3>Primary Plataform Development/Design</h3>
+        <label><input type="radio" name="device" value="Desktop">Desktop</label>
+        <label><input type="radio" name="device" value="Tablet">Tablet</label>
+        <label><input type="radio" name="device" value="Smartphone">Smartphone</label>
+        <input type="submit" value="Create Profile" name="sender">
+    </form>
+</body>
+</html>

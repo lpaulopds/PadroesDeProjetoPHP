@@ -1,0 +1,104 @@
+@charset "UTF-8";
+/* CSS Document */
+/* EFECCA, 046380, 002F2F */
+
+body 
+{
+    margin-left: 16px;
+    margin-right: 16px;
+    font-family: 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-color: #EFECCA;
+}
+header
+{
+    font-family: "Arial Black", Gadget, sans-serif;
+    font-size: 24px;
+    color: #002F2F;
+    margin-bottom: 16px;
+}
+#entry
+{
+    font-size: 11px;
+    color: #046380;
+}
+.subhead
+{
+    font-size: 16px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+input
+{
+    padding: 8px 12px;
+    margin-top: 8px;
+    margin-bottom: 16px;
+    font-size: 14px;
+    border: none;
+    border-bottom: #a5a393 3px solid;
+    border-radius: 6px;
+    letter-spacing: 0.7px;
+    color: #3f3f3f;
+    font-weight: 600;
+    width: 210px;
+}
+::placeholder
+{
+    font-size: 12px;
+    font-weight: lighter;
+    letter-spacing: 1px;
+    color: #aaa9a1;
+}
+input[type=submit]
+{
+    background-color: #a5a393;
+    padding: 8px 20px;
+    font-size: 14px;
+    border: none;
+    border-radius: 6px;
+    letter-spacing: 1px;
+    font-weight: 600;
+    color: #3f3f3f;
+    cursor: pointer;
+    max-width: 180px ;
+    margin-top: 16px;
+}
+a
+{
+    margin-top: 16px;
+    margin-bottom: 16px;
+    display: block;
+    font-size: 14px;
+    letter-spacing: 0.7px;
+}
+input[type=submit]:hover
+{
+    background-color: #8f8d80;
+}
+small
+{
+    margin-bottom: 16px;
+    display: block;
+    color: rgb(90, 90, 90);
+}
+table
+{
+    background-color: #dddddd;
+    border-collapse: collapse;
+    border: 1px solid #737373;
+    text-align: center;
+}
+th
+{
+    text-align: left;
+    padding: 8px;
+    border-collapse: collapse;
+    border: 1px solid #737373;  
+    padding: 0.6rem;
+}
+td
+{
+    text-align: left;
+    padding: 8px;
+    border-collapse: collapse;
+    border: 1px solid #737373;
+    padding: 0.6rem;
+}

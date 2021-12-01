@@ -1,0 +1,78 @@
+<!-- Página 324 -->
+<!DOCTYPE html>
+<html lang="en"><head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Adminstrative Module</title>
+    <style>
+    html
+    {
+        height: 191vh;
+        margin-left: 34px;
+    }
+    h3
+    {
+        margin-top: 32px;
+    }
+    label
+    {
+        display: block;
+        margin-bottom: 8px;
+    }
+    input[type=text]
+    {
+        margin-top: 8px;
+    }
+    input[type=submit]
+    {
+        background-color: #222;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+        letter-spacing: 0.5px;
+        margin-top: 8px;
+        margin-bottom: 8px;
+        padding: 8px 16px;
+        color: #f2f2f2;
+    }
+    </style>
+</head>
+<body>
+    <h2>Adminstrative Module</h2>
+    <form name="allData" action="displayTrigger.php" method="post">
+        <h3>&nbsp;Display all data</h3>
+        <input type="submit" value="Display Data" name="display">
+    </form>
+    <form name="search" action="findTrigger.php" method="post">
+        <h3>Search Field</h3>
+            <label><input type="radio" name="field" value="id"> ID</label>
+            <label><input type="radio" name="field" value="company"> Company</label>
+            <label><input type="radio" name="field" value="devdes"> Designer/Developer</label>
+            <label><input type="radio" name="field" value="lang"> Computer Language</label>
+            <label><input type="radio" name="field" value="plat"> Development Platform</label>
+            <label><input type="radio" name="field" value="style"> Programming Style</label>
+            <label><input type="radio" name="field" value="device"> Target Device</label>
+            <label><input type="text" name="term"> Term to Find</label>
+        <input type="submit" value="Search" name="searcher">
+    </form>
+    <form name="search" action="changeTrigger.php" method="post">
+        <h3>Change Field</h3>
+            <label><input type="radio" name="update" value="id"> ID</label>
+            <label><input type="radio" name="update" value="company"> Company</label>
+            <label><input type="radio" name="update" value="devdes"> Designer/Developer</label>
+            <label><input type="radio" name="update" value="lang"> Computer Language</label>
+            <label><input type="radio" name="update" value="plat"> Development Platform</label>
+            <label><input type="radio" name="update" value="style"> Programming Style</label>
+            <label><input type="radio" name="update" value="device"> Target Device</label>
+            <label><input type="text" name="old"> Old value</label>
+            <label><input type="text" name="new"> New Value</label>
+        <input type="submit" value="Change Value" name="changer">
+    </form>
+    <form name="killer" action="killerTrigger.php" method="post">
+        <h3>Delete Record</h3>
+            <label><input type="number" name="delete" size="3"> Number od Record to Delete</label>
+        <input type="submit" value="Permanently Delete Record" name="doa">
+    </form>
+</body>
+</html>

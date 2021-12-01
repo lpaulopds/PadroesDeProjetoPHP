@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="desktop.css">
+    <title>CMS Admin Module</title>
+</head>
+<body>
+    <h1>CMS Administrative Module</h1>
+    <h2>Data Entry</h2>
+    <form action="DataEntry.php" method="post">
+        <label for="dpHeader">Design pattern name</label>
+        <input type="text" name="dpHeader" id="dpHeader">
+        <label for="textBlock">Wirte up for desgin pattern:</label>
+        <textarea name="textBlock" id="textBlock" cols="48" rows="16"></textarea>
+        <label for="imageURL">Graphic URL</label>
+        <input type="text" name="imageURL" id="imageURL">
+
+        <input type="submit" name="entry" value="Enter Page Data">
+    </form>
+    <form action="DataUpdate.php" method="post">
+        <label for="dpUpdate">Design pattern name to update</label>
+        <input type="text" name="dpUpdate" id="dpUpdate">
+        <label for="newData">New write-up for design pattern:</label>
+        <textarea name="newData" id="newData" cols="48" rows="16"></textarea>
+
+        <input type="submit" name="update" value="Update Page Data">
+    </form>
+</body>
+</html>

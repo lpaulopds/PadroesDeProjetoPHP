@@ -1,0 +1,38 @@
+<!-- Página 307 -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Padrão Strategy</title>
+    <link rel="stylesheet" href="stylesheet.css">
+</head>
+<body>
+    <h3>Insert</h3>
+    <form name="insert" action="insertTrigger.php" method="post">
+        <input type="text" name="data">
+        <button type="submit" value="Insert">Insert</button>
+    </form>
+    <h3>Find Data</h3>
+    <form name="find" action="findTrigger.php" method="post">
+        <input type="text" name="data">
+        <button type="submit" value="Find">Find</button>
+    </form>
+    <h3>Display All Data</h3>
+    <form name="display" action="displayTrigger.php" method="post">
+        <button type="submit" value="Show all data">Show all data</button>
+    </form>
+    <h3>Update Data</h3>
+    <form name="change" action="updateTrigger.php" method="post">
+        <input type="number" name="update">
+        <input type="text" name="data">
+        <button type="submit" value="Change data in record">Change data in record</button>
+    </form>
+    <h3>Delete Record</h3>
+    <form name="killer" action="killerTrigger.php" method="post">
+        <input type="text" name="data">
+        <button type="submit" value="Delete Record">Delete Record</button>
+    </form>
+</body>
+</html>
